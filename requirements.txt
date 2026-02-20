@@ -1,0 +1,65 @@
+# --- Core Dependencies ---
+numpy>=2.0.0
+cython>=3.0.0
+scipy>=1.13.0
+torch>=2.3.0
+torchaudio>=2.3.0
+soundfile>=0.12.0
+librosa>=0.11.0
+scikit-learn>=1.3.0
+inflect>=5.6.0
+tqdm>=4.64.1
+anyascii>=0.3.0
+pyyaml>=6.0
+fsspec[http]>=2023.6.0
+aiohttp>=3.8.1
+packaging>=23.1
+typing_extensions>=4.10
+mutagen==1.47.0
+numba>=0.60.0  # Required for NumPy 2.0+ support
+
+# --- Inference & Server ---
+pysbd>=0.3.4
+flask>=3.0.0
+
+# --- Training & Coqui Stack ---
+matplotlib>=3.8.4
+coqui-tts-trainer>=0.2.0,<0.3.0
+coqpit-config>=0.2.0,<0.3.0
+monotonic-alignment-search>=0.1.0
+
+# --- Model Specific (Tortoise, Bark, XTTS) ---
+einops>=0.6.0
+transformers>=4.47.0
+encodec>=0.1.1
+unidecode>=1.3.2
+num2words>=0.5.14
+spacy[ja]>=3
+tokenizers==0.20.1
+vinorm==2.0.7
+underthesea==6.8.4
+
+# --- Language Support (G2P) ---
+# Bangla
+bangla>=0.0.2
+bnnumerizer>=0.0.2
+bnunicodenormalizer>=0.1.0
+# Korean
+hangul_romanize>=0.1.0
+jamo>=0.4.1
+g2pkk>=0.1.1
+nltk
+# Japanese
+mecab-python3>=1.0.6
+unidic-lite==1.0.8
+cutlet>=0.2.0
+# Chinese
+jieba>=0.42.1
+pypinyin>=0.40.0
+# Gruut
+gruut[de,es,fr]>=2.4.0
+
+# --- Notebooks & Analysis ---
+bokeh>=3.0.3
+pandas>=2.0.0
+umap-learn>=0.5.1
